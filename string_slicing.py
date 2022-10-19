@@ -1,0 +1,20 @@
+
+ # 01234567890123456        positive(+)
+s="Tops Technologies"
+#  76543210987654321        (-)
+s1="string_slicing"
+print(s1.center(80,"*"))
+print()
+print("Positive slicing".center(50,"*"))
+print(s[:])
+print(s[:9])
+print(s[5:14])
+print(s[5:15:3])
+print()
+print("Negative slicing".center(50,"*"))
+print(s[-17:-3])
+print(s[:-8])
+print(s[-12:])
+print(s[-15:-6:2])
+print(s[::-1])
+print(s[::-4])
