@@ -1,0 +1,6 @@
+file = open("tops1.txt","w+")
+file.write("This is Read and write operation in Python using w+ method")
+print("file pointer current position:",file.tell())
+file.seek(17)
+print(file.read())
+file.close()
